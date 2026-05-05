@@ -11,7 +11,7 @@ def remove_duplicates(nums):
 
     # Check if the input is a list
     if not isinstance(nums, list):
-        raise TypeError("Input must be a list of numbers")
+        raise TypeError(f"Expected a list, but got {type(nums).__name__}")
     
     # Check if the input is a list of int/float values
     if not all(isinstance(num, (int, float)) for num in nums):
