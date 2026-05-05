@@ -47,7 +47,7 @@ cd ssnc-test-framework
 
 **2. Create a virtual environment** _(Optional but recommended - use a virtual environment to isolate dependencies and ensure consistency)_
 ```bash
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate  # MacOS/Linux
 ```
 
